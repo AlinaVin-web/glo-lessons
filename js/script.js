@@ -7,7 +7,11 @@ const otherItemsPercent = document.querySelectorAll(".other-items.percent");
 const otherItemsNumber = document.querySelectorAll(".other-items.number");
 const inputRange = document.querySelector(".rollback input[type='range']");
 const rangeValue = document.querySelector(".rollback .range-value");
-const totalInputs = document.getElementsByClassName("total-input");
+const total = document.getElementsByClassName("total-input")[0];
+const totalCount = document.getElementsByClassName("total-input")[1];
+const totalCountOther = document.getElementsByClassName("total-input")[2];
+const totalFullCount = document.getElementsByClassName("total-input")[3];
+const totalCountRollback = document.getElementsByClassName("total-input")[4];
 let screens = document.querySelectorAll(".screen");
 
 const appData = {
